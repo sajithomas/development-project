@@ -18,7 +18,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #727272;}
+ul.topnav li a.active {background-color: #4CAF50;}
 
 ul.topnav li.right {float: right;}
 
@@ -52,7 +52,7 @@ img {
 }
 
 #resume{
-    background-color: #727272; /* Green */
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -66,7 +66,7 @@ img {
 
 .button{
 
-    background-color: #727272;
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -95,3 +95,29 @@ img {
 	text-align: center;
 	
 }
+
+#date1{
+	
+	text-align: center;
+}
+
+.main{
+	
+	font-size:130%;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+#btn1{
+	width: 125px;
+    margin-left: 40%;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#draggable {  width: 150px; height: 100px; background: #ccc; }
+#droppable {  width: 150px; height: 100px; border: 1px solid #999; }
+

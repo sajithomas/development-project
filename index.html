@@ -3,31 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website</title>
-    <meta name="author" content="Saji Thomas">
-    <meta name="description" content="DevelopmentProject">
-    <meta name="keywords" content="sajithomas,developmentproject">
+    <meta name="author" content="Shreshta">
+    <meta name="description" content="DevelopmentProject1">
+    <meta name="keywords" content="HTML,CSS,JavaScript,shreshta,devproject">
     
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--script src="https://code.jquery.com/jquery-1.10.2.js"></script-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    
 </head>
 <body>
-<div>
 <ul class="topnav">
     <li><a class="active" href="#home">Home</a></li>
     <li><a href="./about.html">About</a></li>
+    <li><a href="./skills.html">Skills</a></li>
+    <li><a  href="./contact.html">ContactMe</a></li>
 </ul>
 
-<h1 align="center">Welcome</h1>
-
-<h1 style="font-style: italic" align="center">Saji's Portal</h1>
-<!--iframe  align="center" style="height:100%; width: 90%" src="pdfs/Saji_Resume.pdf"></iframe-->
-<a href="/pdfs/Saji_Resume.pdf" download=""><button id="resume">Download</button></a>
-
-
+<div id = "marq">
+<marquee width=100% bgcolor=#b31bb>Welcome</marquee>
 </div>
 
-<img align="center" style="width: 15%;height: 15%" src="images/Marist_College_Seal.png"/>
-<footer>Copyright © Mairst College</footer>
-<script src="app.js"></script>
-</body>
+<div class="imagesContainer">
+<img src="images/1.png" alt="Marist" style="width:304px;height:228px;">
+</div>
 
+<a id="res" href="./pdfs/Saji_Resume.pdf" download="saji_resume"> <button id="resume">Download Resume</button></a></body></br></br>
+
+<div align="center">
+<div id="draggable">Drag me into drop box to download resume</div>
+
+<div  id="droppable">Drop box</div>
+</div>
+</body>
+<footer>Copyright © Saji Thomas</footer>
+
+<script type="text/javascript">
+
+</script>
 </html>
